@@ -13,7 +13,7 @@
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
-    "puppeteer": "^20.2.1"
+    "puppeteer": "^23.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
