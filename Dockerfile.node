@@ -58,6 +58,6 @@ ARG PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
 RUN mkdir -p /usr/src/app
 
 WORKDIR /usr/src/app
-COPY  --from=builder . .
+COPY  --from=builder /usr/src/app/* .
 
 CMD ["node", "./bin/www"]
